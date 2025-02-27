@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+button {
+    background: #e22363;
+    border-color: #e22363;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2em;
+    padding: 5px;
+    width: 100%;
+}
+
+img {
+    width: 70px;
+}
+
+#submit-button {
+    font-size: 1.2em;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid white;
+    margin-top: 20px;
+}
+
+#contact {
+    background: #e22363;
+    height: 50vh;
+    color: white;
+}
+
+#projects {
+    height: 60vh;
+}
+
+.project-btn-wrapper{
+    width: 20%;
+}
+
+.project-button {
+    margin: 10px;
+}
+
+.divider {
+    border:none;
+    background-color:#53D769;
+    width: 20%;
+    height: 2px;
+}
+
+#nav-bar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color:#1a1265;
+    padding: 5px;
+
+}
+
+.nav-items {
+    display:flex;
+    justify-content: space-around;
+}
+
+.item {
+    margin-left: 20px;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 60vh;
+}
+
+.CTA {
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    
+
+    width: 60%;
+}
+
+.btn {
+    font-size: 1.2em;
+    border-radius: 10px;
+    background-color: #53D769;
+    padding: 8px;
+    
+
+}
+
+.red {
+   background-color: #e22363; 
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.align-center {
+    align-self: center;
+}
+
+#about, #contact, #projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+
+    margin: 10px;
+}
+
+.text-center {
+   text-align: center; 
+}
+
+.img-wrapper {
+    height: 97px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: flex-end;
+
+    padding: .5em;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input, textarea {
+    width: 300px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1a1265;
+    color: white;
+}
+
